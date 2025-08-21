@@ -55,16 +55,16 @@
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": ["product-summary.shelf#teste-shelf"],
+    "children": ["slider-layout#demo-products1"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#demo-products1": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1
       },

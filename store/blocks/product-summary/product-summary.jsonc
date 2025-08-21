@@ -11,6 +11,15 @@
       "add-to-cart-button"
     ]
   },
+   "product-summary.shelf#teste-shelf": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "flex-layout.col#productRating",
+      "product-summary-space",
+      "add-to-cart-button"
+    ]
+  },
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"
