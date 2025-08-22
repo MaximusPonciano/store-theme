@@ -55,7 +55,7 @@
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf#teste-shelf"],
+    "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products1"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
