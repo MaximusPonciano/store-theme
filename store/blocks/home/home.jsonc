@@ -58,7 +58,8 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products1"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDESC",
+      "blockClass": "shelf-max"
     }
   },
   "slider-layout#demo-products1": {
@@ -70,7 +71,7 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf"
+      "blockClass": "shelf-container-max"
     }
   },
 

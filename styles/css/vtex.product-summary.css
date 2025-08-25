@@ -1,3 +1,28 @@
+:global(.vtex-product-summary-2-x-container--shelf-max) {
+  margin: 0 12px;
+  padding: 20px;
+  max-width: 420px !important;
+  text-align: center !important;
+}
+
+:global(.vtex-product-summary-2-x-nameWrapper) {
+  text-align: center !important;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+:global(.vtex-product-summary-2-x-productBrand--shelf-max){
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+:global(.vtex-product-summary-2-x-element--shelf-max) {
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
 :global(.vtex-product-summary-2-x-element) :global(.vtex-button) {
   padding-top: 20;
   border: 1px solid #000000;
@@ -13,10 +38,16 @@
   background: #000000;
   color: #FFFFFF;
 }
-:global(.vtex-wish-list-1-x-wishlistIconContainer)
-  :global(.vtex-button__label) {
-  position: absolute;
-  background: transparent !important;
-  border: none;
-  left: 220px;
+
+
+:global(.vtex-product-summary-2-x-imageContainer--imagemdashelf),
+:global(.vtex-product-summary-2-x-imageWrapper--imagemdashelf),
+:global(.vtex-product-summary-2-x-image--imagemdashelf) {
+  width: 424px !important;
+  height: 424px !important;
+  max-width: 424px !important;
+  max-height: 424px !important;
+  object-fit: contain !important;
+  margin: 0 -7px !important;
+  display: block !important;
 }

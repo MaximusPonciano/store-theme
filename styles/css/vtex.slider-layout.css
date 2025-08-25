@@ -29,3 +29,19 @@
   padding-right: .5rem;
   min-height: 550px;
 }
+
+:global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf-container-max), :global(.vtex-slider-layout-0-x-sliderRightArrow--shelf-container-max) {
+  background: #ffffff !important;
+  border-radius: 30px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2); /* sombra mais perceptível */
+  height: 40px;
+  width: 40px;
+  margin: 55px;
+  display: flex;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon--shelf-container-max) {
+  width: 16px;
+  height: 16px;
+  
+}
